@@ -1,3 +1,3 @@
-puppy.components.text = function(val) {
+puppy.components.internal.text = function(val) {
   return val;
 };

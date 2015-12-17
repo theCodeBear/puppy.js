@@ -1,2 +1,1 @@
-var puppy = {};
-puppy.components = {};
+var puppy = { components: { internal: {} } };

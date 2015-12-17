@@ -2,7 +2,7 @@
 // purpose of validation done by the user on the form itself, puppy.js
 // isn't responsible for that.
 
-puppy.components.input = function(val, type, element) {
+puppy.components.internal.input = function(val, type, element) {
   switch(type) {
     case 'text':
     case 'password':

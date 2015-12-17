@@ -1,4 +1,4 @@
-puppy.components.createElement = function(el, text, replace, parent) {
+puppy.components.internal.createElement = function(el, text, replace, parent) {
   el = el.toLowerCase().trim();
   text = text.trim();
   var el = document.createElement(el);
